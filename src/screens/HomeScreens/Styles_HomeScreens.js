@@ -1,0 +1,100 @@
+import React from 'react';
+import {View, Text, StyleSheet} from 'react-native';
+var styles = StyleSheet.create({
+  container: {paddingTop: 50, flex: 1, backgroundColor: 'white'},
+  viewboxtong: {
+    height: 45,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+  },
+  viewboxbaonho: {flexDirection: 'row'},
+  txttieude: {
+    fontFamily: 'Poppins-Bold',
+    fontWeight: 'bold',
+    fontSize: 32,
+    color: '#272727',
+  },
+  imgtxttieude: {
+    resizeMode: 'contain',
+    width: 14,
+    height: 14,
+    marginLeft: 9,
+    marginTop: 20,
+  },
+  imgavatar: {width: 39, height: 39, borderRadius: 39 / 2},
+  viewboxflatlist: {
+    backgroundColor: '#e6e6e6ff',
+    flex: 1,
+    paddingHorizontal: 10,
+  },
+  btinsertpost: {
+    width: 60,
+    height: 60,
+    borderRadius: 60,
+    backgroundColor: '#2FBBF0',
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  boxitem: {
+    flex: 1,
+    borderRadius: 10,
+    paddingHorizontal: 20,
+    backgroundColor: 'white',
+    marginTop: 10,
+    marginBottom: 10,
+    paddingBottom: 10,
+  },
+  viewboxitemnho: {
+    marginTop: 10,
+    height: 50,
+    flexDirection: 'row',
+    paddingHorizontal: 5,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  viewboxavatar: {height: 50, flexDirection: 'row', alignItems: 'center'},
+  imgavataritem: {width: 50, height: 50, borderRadius: 50 / 2},
+  txtnameitem: {
+    fontFamily: 'Poppins-SemiBold',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  txttimeitem: {
+    color: '#989898',
+    fontSize: 11,
+    fontFamily: 'Poppin-Regular',
+  },
+  imgpostitem: {marginTop: 5, borderRadius: 10, height: 400},
+  viewboxitemcmt: {marginTop: 20, flexDirection: 'row', marginLeft: 10},
+  viewboxheart: {flexDirection: 'row', alignItems: 'center'},
+  txtimgheart: {
+    fontFamily: 'Poppins-SemiBold',
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: '#7A8FA6',
+    marginLeft: 4,
+  },
+  viewboxchatbubble: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginLeft: 34,
+  },
+  btnpopupmenu: {
+    flexDirection: 'row',
+    backgroundColor: 'white',
+    alignItems: 'center',
+  },
+  txtbtnpopupmenu: {
+    marginLeft: 10,
+    fontFamily: 'Poppin-Regular',
+    fontWeight: '500',
+    fontSize: 18,
+  },
+});
+
+export default styles;

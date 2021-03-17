@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "101439265189",
+    "firebase_url": "https://rn-socialapp-3ad1c-default-rtdb.firebaseio.com",
+    "project_id": "rn-socialapp-3ad1c",
+    "storage_bucket": "rn-socialapp-3ad1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101439265189:android:8926b608def097ff33704c",
+        "android_client_info": {
+          "package_name": "com.asmreactnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101439265189-57m59r9c4f4l274t6491m8jppdg0gl39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asmreactnative",
+            "certificate_hash": "fcc2785735537670819ebf42ff37e98dd9c4b02c"
+          }
+        },
+        {
+          "client_id": "101439265189-95q835f44l9bmhm608fshv34sns2h7l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asmreactnative",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "101439265189-3vm8r7hqulv5fbnvig10qlhpaphjleei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBof0719i1CM6psIib22BEkxfkXhBVGiEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101439265189-3vm8r7hqulv5fbnvig10qlhpaphjleei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
